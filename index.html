@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Google Font Rubik weight 400, 500, 600 and 700 -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -12,6 +13,7 @@
     />
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/quieries.css" />
     <title>Omni food</title>
   </head>
   <body>
@@ -20,15 +22,23 @@
       <a href="#">
         <img class="logo" src="content/img/omnifood-logo.png" alt=""
       /></a>
+
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#">Home</a></li>
-          <li><a class="main-nav-link" href="#">Link</a></li>
-          <li><a class="main-nav-link" href="#">Link</a></li>
-          <li><a class="main-nav-link" href="#">Link</a></li>
-          <li><a class="main-nav-link nav-cta" href="#">Login</a></li>
+          <li>
+            <a class="main-nav-link" href="#how-it-works">How it works</a>
+          </li>
+          <li><a class="main-nav-link" href="#">Meals</a></li>
+          <li><a class="main-nav-link" href="#">Testimonial</a></li>
+          <li><a class="main-nav-link" href="#">Pricing</a></li>
+          <li><a class="main-nav-link nav-cta" href="#">Try for free</a></li>
         </ul>
       </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
     </header>
 
     <!-- Main Starts Here -->
@@ -36,7 +46,7 @@
       <!-- Hero Section -->
       <section class="section-hero">
         <div class="hero">
-          <div class="hero-textbox">
+          <div class="hero-text-box">
             <h1 class="heading-primary">
               A healthy meal delivered to your door, every single day
             </h1>
@@ -117,7 +127,7 @@
       </section>
 
       <!-- How it works Section -->
-      <section class="section-how">
+      <section class="section-how" id="how-it-works">
         <div class="container">
           <span class="subheading">How it works</span>
           <h2 class="heading-secondary">
@@ -602,7 +612,7 @@
               </form>
             </div>
             <div
-              class="cts-image-box"
+              class="cta-image-box"
               role="img"
               aria-label="Women enjoying food"
             ></div>

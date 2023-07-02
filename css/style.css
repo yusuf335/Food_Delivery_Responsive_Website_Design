@@ -10,6 +10,7 @@
 
   height: 9.6rem;
   padding: 0 4.8rem;
+  position: relative;
 }
 
 .logo {
@@ -23,7 +24,7 @@
 .main-nav-list {
   list-style: none;
   display: flex;
-  gap: 3.2rem;
+  gap: 4.8rem;
   align-items: center;
 }
 
@@ -54,6 +55,25 @@
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
   background-color: #cf711f;
+}
+
+/* Mobile */
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
 }
 
 /* ********************************* */
@@ -263,7 +283,7 @@
   margin-bottom: 3.2rem;
 }
 
-.list {
+.meal-attributes {
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -504,7 +524,7 @@
   margin-bottom: 4.8rem;
 }
 
-.cts-image-box {
+.cta-image-box {
   /* background-image: url("../content/img/eating.jpg"); */
   background-image: linear-gradient(
       to right bottom,
