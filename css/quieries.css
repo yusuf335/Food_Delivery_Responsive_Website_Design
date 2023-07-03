@@ -124,6 +124,7 @@ rem and em don't depend on html font-size in media quieries.
 
   .btn-mobile-nav {
     display: block;
+    z-index: 9999;
   }
 
   .main-nav {
